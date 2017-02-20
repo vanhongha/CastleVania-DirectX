@@ -1,0 +1,307 @@
+﻿Build started 2/20/2017 3:45:16 PM.
+     1>Project "D:\Projects\NMGAME\NMGAME - primary ver17\CaslteVania\CaslteVania.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Animation.cpp Axe.cpp Bat.cpp BatAnimation.cpp Batman.cpp BlueBat.cpp BonePillar.cpp Candle.cpp CheckPoint.cpp CollideEffect.cpp Cross.cpp Crusher.cpp DeadAnimation.cpp Door.cpp dsutil.cpp dxutil.cpp Enemy.cpp Game.cpp GameMenuState.cpp GameObject.cpp GamePlayStateOne.cpp GamePlayStateThree.cpp GamePlayStateTwo.cpp GameState.cpp GameTime.cpp Ghost.cpp Graphics.cpp Ground.cpp HolyWater.cpp Input.cpp IntroScene.cpp Item.cpp Knife.cpp LargeCandle.cpp Medusa.cpp MedusaHead.cpp Merman.cpp MovableGround.cpp Panther.cpp dxsound.cpp Projectile.cpp QuadTree.cpp SceneCheck.cpp Simon.cpp Snake.cpp Sound.cpp Spear_guard.cpp Sprite.cpp Collider.cpp Stair.cpp StateManager.cpp StopWatch.cpp SubWeapon.cpp Surface.cpp TileMap.cpp TitleAnimation.cpp UI.cpp ViewPort.cpp WaterAnimation.cpp Whip.cpp Winmain.cpp Zombie.cpp
+         Zombie.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\zombie.cpp(34): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\zombie.cpp(45): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         Winmain.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\crusher.h(31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         Whip.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\whip.cpp(87): warning C4101: 'timeCollide': unreferenced local variable
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\whip.cpp(207): warning C4101: 'timeCollide': unreferenced local variable
+         WaterAnimation.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\wateranimation.cpp(16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\wateranimation.cpp(17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         ViewPort.cpp
+         UI.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\ui.cpp(28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\ui.cpp(35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\ui.cpp(42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         TitleAnimation.cpp
+         TileMap.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\tilemap.cpp(14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\tilemap.cpp(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\tilemap.cpp(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\tilemap.cpp(86): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\tilemap.cpp(87): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\tilemap.cpp(90): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\tilemap.cpp(91): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\tilemap.cpp(98): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\tilemap.cpp(99): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\tilemap.cpp(100): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\tilemap.cpp(101): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+         Surface.cpp
+         SubWeapon.cpp
+         StopWatch.cpp
+         StateManager.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\crusher.h(31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         Stair.cpp
+         Collider.cpp
+         Sprite.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\sprite.cpp(101): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\sprite.cpp(102): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\sprite.cpp(130): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\sprite.cpp(131): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\sprite.cpp(198): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+         Spear_guard.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\spear_guard.cpp(12): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\spear_guard.cpp(52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\spear_guard.cpp(84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\spear_guard.cpp(93): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         Sound.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\sound.cpp(125): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
+         Snake.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\snake.cpp(34): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\snake.cpp(45): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         Simon.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\simon.cpp(116): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\simon.cpp(264): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\simon.cpp(383): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\simon.cpp(422): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\simon.cpp(476): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\simon.cpp(764): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\simon.cpp(767): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\simon.cpp(801): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\simon.cpp(952): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\simon.cpp(959): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\simon.cpp(1074): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\simon.cpp(1078): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\simon.cpp(1182): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         SceneCheck.cpp
+         Generating Code...
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\ui.cpp(85): warning C4715: 'UI::Initialize': not all control paths return a value
+         Compiling...
+         QuadTree.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\crusher.h(31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\quadtree.cpp(98): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\quadtree.cpp(131): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\quadtree.cpp(141): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\quadtree.cpp(143): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\quadtree.cpp(152): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\quadtree.cpp(154): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\quadtree.cpp(163): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\quadtree.cpp(165): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\quadtree.cpp(316): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\quadtree.cpp(318): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         Projectile.cpp
+         dxsound.cpp
+         Panther.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\panther.cpp(18): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\panther.cpp(91): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         MovableGround.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\movableground.cpp(49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\movableground.cpp(55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         Merman.cpp
+         MedusaHead.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusahead.cpp(18): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusahead.cpp(73): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusahead.cpp(84): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusahead.cpp(89): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusahead.cpp(101): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+         Medusa.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusa.cpp(7): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusa.cpp(13): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusa.cpp(26): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusa.cpp(76): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusa.cpp(90): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusa.cpp(99): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusa.cpp(170): warning C4244: '-=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusa.cpp(171): warning C4244: '+=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusa.cpp(265): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusa.cpp(290): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusa.cpp(305): warning C4244: '=': conversion from 'LONG' to 'FLOAT', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusa.cpp(306): warning C4244: '=': conversion from 'LONG' to 'FLOAT', possible loss of data
+         LargeCandle.cpp
+         Knife.cpp
+         Item.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\item.cpp(13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\item.cpp(159): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+         IntroScene.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\crusher.h(31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         Input.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         HolyWater.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\holywater.cpp(45): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+         Ground.cpp
+         Graphics.cpp
+         Ghost.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\ghost.cpp(17): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\ghost.cpp(69): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\ghost.cpp(96): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+         GameTime.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         GameState.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\crusher.h(31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         GamePlayStateTwo.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\crusher.h(31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\gameplaystatetwo.cpp(273): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\gameplaystatetwo.cpp(284): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\gameplaystatetwo.cpp(308): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\ghost.cpp(42): warning C4715: 'Ghost::Initialize': not all control paths return a value
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusa.cpp(82): warning C4715: 'Medusa::Initialize': not all control paths return a value
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\medusahead.cpp(45): warning C4715: 'MedusaHead::Initialize': not all control paths return a value
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\merman.cpp(54): warning C4715: 'Merman::Initialize': not all control paths return a value
+         Compiling...
+         GamePlayStateThree.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\crusher.h(31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         GamePlayStateOne.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\crusher.h(31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         GameObject.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\gameobject.cpp(65): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\gameobject.cpp(66): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\gameobject.cpp(67): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\gameobject.cpp(68): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\gameobject.cpp(105): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+         GameMenuState.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\crusher.h(31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         Game.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\crusher.h(31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         Enemy.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\enemy.cpp(49): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\enemy.cpp(64): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\enemy.cpp(78): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\enemy.cpp(120): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\enemy.cpp(137): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\enemy.cpp(187): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         dxutil.cpp
+         dsutil.cpp
+         Door.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\door.cpp(18): warning C4305: 'argument': truncation from 'double' to 'float'
+         DeadAnimation.cpp
+         Crusher.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\crusher.h(31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         Cross.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         CollideEffect.cpp
+         CheckPoint.cpp
+         Candle.cpp
+         BonePillar.cpp
+         BlueBat.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\bluebat.cpp(13): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\bluebat.cpp(58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         Batman.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\batman.cpp(7): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\batman.cpp(13): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\batman.cpp(22): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\batman.cpp(33): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\batman.cpp(48): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\batman.cpp(145): warning C4244: '-=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\batman.cpp(146): warning C4244: '+=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\batman.cpp(239): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\batman.cpp(265): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\batman.cpp(284): warning C4244: '=': conversion from 'LONG' to 'FLOAT', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\batman.cpp(285): warning C4244: '=': conversion from 'LONG' to 'FLOAT', possible loss of data
+         BatAnimation.cpp
+         Bat.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\bat.cpp(18): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\bat.cpp(74): warning C4305: '=': truncation from 'double' to 'float'
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\bat.cpp(85): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\bat.cpp(90): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\bat.cpp(103): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\bat.cpp(46): warning C4715: 'Bat::Initialize': not all control paths return a value
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\batman.cpp(90): warning C4715: 'Batman::Initialize': not all control paths return a value
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\bonepillar.cpp(49): warning C4715: 'BonePillar::Initialize': not all control paths return a value
+         Compiling...
+         Axe.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\axe.cpp(44): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+         Animation.cpp
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\animation.cpp(47): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\animation.cpp(48): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\animation.cpp(49): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\animation.cpp(50): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\animation.cpp(58): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\animation.cpp(59): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\animation.cpp(60): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\animation.cpp(61): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\animation.cpp(69): warning C4018: '>=': signed/unsigned mismatch
+     1>d:\projects\nmgame\nmgame - primary ver17\casltevania\animation.cpp(82): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\CastleVania.res" CastleVania.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\NMGAME\NMGAME - primary ver17\Debug\CastleVania.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib dsound.lib DxErr.lib dinput8.lib dxguid.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Projects\NMGAME\NMGAME - primary ver17\Debug\CastleVania.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\NMGAME\NMGAME - primary ver17\Debug\CastleVania.lib" /MACHINE:X86 Debug\CastleVania.res
+         Debug\Animation.obj
+         Debug\Axe.obj
+         Debug\Bat.obj
+         Debug\BatAnimation.obj
+         Debug\Batman.obj
+         Debug\BlueBat.obj
+         Debug\BonePillar.obj
+         Debug\Candle.obj
+         Debug\CheckPoint.obj
+         Debug\CollideEffect.obj
+         Debug\Cross.obj
+         Debug\Crusher.obj
+         Debug\DeadAnimation.obj
+         Debug\Door.obj
+         Debug\dsutil.obj
+         Debug\dxutil.obj
+         Debug\Enemy.obj
+         Debug\Game.obj
+         Debug\GameMenuState.obj
+         Debug\GameObject.obj
+         Debug\GamePlayStateOne.obj
+         Debug\GamePlayStateThree.obj
+         Debug\GamePlayStateTwo.obj
+         Debug\GameState.obj
+         Debug\GameTime.obj
+         Debug\Ghost.obj
+         Debug\Graphics.obj
+         Debug\Ground.obj
+         Debug\HolyWater.obj
+         Debug\Input.obj
+         Debug\IntroScene.obj
+         Debug\Item.obj
+         Debug\Knife.obj
+         Debug\LargeCandle.obj
+         Debug\Medusa.obj
+         Debug\MedusaHead.obj
+         Debug\Merman.obj
+         Debug\MovableGround.obj
+         Debug\Panther.obj
+         Debug\dxsound.obj
+         Debug\Projectile.obj
+         Debug\QuadTree.obj
+         Debug\SceneCheck.obj
+         Debug\Simon.obj
+         Debug\Snake.obj
+         Debug\Sound.obj
+         Debug\Spear_guard.obj
+         Debug\Sprite.obj
+         Debug\Collider.obj
+         Debug\Stair.obj
+         Debug\StateManager.obj
+         Debug\StopWatch.obj
+         Debug\SubWeapon.obj
+         Debug\Surface.obj
+         Debug\TileMap.obj
+         Debug\TitleAnimation.obj
+         Debug\UI.obj
+         Debug\ViewPort.obj
+         Debug\WaterAnimation.obj
+         Debug\Whip.obj
+         Debug\Winmain.obj
+         Debug\Zombie.obj
+         CaslteVania.vcxproj -> D:\Projects\NMGAME\NMGAME - primary ver17\Debug\CastleVania.exe
+     1>Done Building Project "D:\Projects\NMGAME\NMGAME - primary ver17\CaslteVania\CaslteVania.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:59.52
